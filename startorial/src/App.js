@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-// import Searchbar from './components/searchbar/searchbar.component'
+import Header from "./components/Header/Header"
 import Search from './components/Search/Search.jsx'
+
 function App() {
   return (
+    //Main component which render the two sub components
     <div className="App">
-       <Search />
+      <Header />
+      <Search />
     </div>
   );
 }
