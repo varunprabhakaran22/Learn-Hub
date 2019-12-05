@@ -51,4 +51,9 @@ class Search extends Component{
         })
     }
 
+    render(){
+        const { type,data,result,loading } = this.state
+        let listItems = result.length > 0 ? result : data
+        let displayList = listItems.map(list => <Card key={list["Course Id"]} list={list}/>)
+
 export default Search
