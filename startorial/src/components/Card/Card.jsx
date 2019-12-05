@@ -2,7 +2,6 @@ import React from 'react'
 import './Card.css'
 export const Card = (props) => {
     let listItem = props.list
-    console.log(listItem);
     return (
         <div className="cardItem">
             <div className ="card" style={{width : "18rem"}}>
