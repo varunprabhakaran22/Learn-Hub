@@ -1,0 +1,12 @@
+.cardHolder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 0% 5% 0% 5%;
+}
+
+@media only screen and (max-width: 768px){
+    .cardHolder{
+        grid-template-columns: 1fr;
+    }
+}
