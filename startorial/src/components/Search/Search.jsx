@@ -19,4 +19,18 @@ class Search extends Component{
         }
     }
 
+    componentDidMount(){
+        this.setState({loading : true})
+        axios.get('https://cors-anywhere.herokuapp.com/https://nut-case.s3.amazonaws.com/coursessc.json',{
+            headers:{
+                "Access-Control-Allow-Origin":"*",
+            }
+        })
+        .then(res => this.setState({
+            data : res.data,
+            loading : false 
+        }))
+        .catch(err => console.log(err))
+    }
+
 export default Search
