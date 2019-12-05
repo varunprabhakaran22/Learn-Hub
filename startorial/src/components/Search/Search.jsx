@@ -33,4 +33,22 @@ class Search extends Component{
         .catch(err => console.log(err))
     }
 
+    setType = (type) =>{
+        this.setState({
+            type
+        })
+    }
+
+    setResult = (result) => {
+        this.setState({
+            result
+        }) 
+    }
+
+    setLoading = () => {
+        this.setState({
+            loading : !this.state.loading
+        })
+    }
+
 export default Search
