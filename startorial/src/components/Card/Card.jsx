@@ -12,8 +12,9 @@ export const Card = (props) => {
                     <p className ="providerName"><b>Category </b>:<span> {listItem["Parent Subject"]?listItem["Parent Subject"]:'N/A'}</span></p>
                     <p className ="providerName"><b>Next Session</b>:<span> {listItem["Next Session Date"]?listItem["Next Session Date"]:'N/A'}</span></p>
                     <p className ="providerName"><b>Length </b>:<span> {listItem["Length"]?listItem["Length"]:'N/A'}</span></p>
-                    <a href={listItem["Video(Url)"]} className ="btn btn-primary">Watch Now</a>
-                    <a href={listItem["Url"]} className ="btn btn-primary"> Visit </a>
+                    <a href={listItem["Url"]} className ="btn btn-secondary mr-3"  > Apply </a> 
+                    <a href={listItem["Video(Url)"]} className ="btn btn-primary" >Watch Now</a>
+                
                 </div>
             </div>
         </div>
