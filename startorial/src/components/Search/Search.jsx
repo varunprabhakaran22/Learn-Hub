@@ -1,11 +1,10 @@
 import React,{ Component } from 'react'
-import Searchbar from '../searchbar/searchbar.component'
-import Input from '../input/input.component'
+import Input from '../Input/Input.jsx'
 import axios from 'axios'
-import Card from '../card/card.component'
-import Detail from '../detail/detail.component'
-import Load from '../load/load.component'
-import './search.style.css'
+import Card from '../Card/Card.jsx'
+import Detail from '../Details/Details.jsx'
+import Load from '../Load/Load.jsx'
+import './Search.css'
 
 class Search extends Component{
 
@@ -55,5 +54,22 @@ class Search extends Component{
         const { type,data,result,loading } = this.state
         let listItems = result.length > 0 ? result : data
         let displayList = listItems.map(list => <Card key={list["Course Id"]} list={list}/>)
+        return (
+            <div>
+                <Input type={type} data={ data } setResult={this.setResult} setLoading={this.setLoading} />
+                <Detail total={data.length} found={displayList.length}/>
+                {
+                    loading ? <Load />
+                    :
+                    <div className="cardHolder">
+                        {
+                            displayList
+                        }
+                    </div>
+                }
+            </div> 
+        )
+    }
+}
 
 export default Search
