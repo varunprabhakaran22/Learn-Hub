@@ -1,6 +1,20 @@
 .card{
     margin: 5% 0% 0% 0%;
 }
+.card-title{
+    color: #000000;
+}
+.providerName{
+    text-align: left;
+}
+
+.align-apply{
+    text-align: start;
+}
+
+.align-watch{
+    text-align: end;
+}
 
 @media only screen and (max-width: 768px){
     .card{
