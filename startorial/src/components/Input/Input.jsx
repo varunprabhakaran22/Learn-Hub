@@ -1,6 +1,8 @@
+//Importing the required packages for this component
 import React,{ useState } from 'react'
 import axios from 'axios'
 import './Input.css'
+
 const Input = (props) => {
     const [input,setInput] = useState('');
     const datas = props.data
@@ -8,9 +10,12 @@ const Input = (props) => {
     let filterData = async () => {
         let result;
         setLoading()
+
+        //If  user search input is not empty then try to match the search result with api data   
         if(input !== ''){
-            console.log(input);
             result = await datas.filter( data => data.Provider.toLowerCase().includes(input))
+
+            //If the user input is not matching with api provider (attribute) then search with child subject (attribute)
             if(result.length <= 0){
                 result = await datas.filter(data => data['Child Subject'].toLowerCase().includes(input))
             }
@@ -21,6 +26,8 @@ const Input = (props) => {
             setLoading()
     }
     return (
+
+        //User input search box 
         <div className="input">
             <input type="text" 
             className="inputBox" 

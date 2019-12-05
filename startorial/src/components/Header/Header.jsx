@@ -1,27 +1,15 @@
+//Importing the required packages for this component
 import React , {Component} from "react"
 
-
+//Nav Bar header
 const Header = ()=>{
     return(
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-primary static-top">
                 <div className="container">
                     <a className="navbar-brand" href="#">
                         < h1>STARTORIAL </h1> 
                     </a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarResponsive">
-                        <ul className="navbar-nav ml-auto">
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">About</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </nav>
         </div>
