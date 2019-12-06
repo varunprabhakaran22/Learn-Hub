@@ -1,5 +1,5 @@
 ## Application Name
-Learnhub
+Startorial
 
 ## Author:
 [Varun](https://github.com/varunprabhakaran22)
