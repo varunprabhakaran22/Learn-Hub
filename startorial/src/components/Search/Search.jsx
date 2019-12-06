@@ -66,7 +66,7 @@ class Search extends Component{
     //Taking the props value out using destructive method
     //If filter is empty diaplaying all the values in homepage else display only the filtered result
     render(){
-        const { type,data,result,loading,sorting } = this.state
+        const { data,result,loading} = this.state
         let listItems = result.length > 0 ? result : data
         let displayList = listItems.map(list => <Card key={list["Course Id"]} list={list}/>)
         return (
