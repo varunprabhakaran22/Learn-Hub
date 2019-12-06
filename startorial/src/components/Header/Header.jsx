@@ -1,5 +1,5 @@
 //Importing the required packages for this component
-import React , {Component} from "react"
+import React  from "react"
 
 //Nav Bar header
 const Header = ()=>{
