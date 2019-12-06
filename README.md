@@ -26,4 +26,4 @@ Step2: you can select the course that you want based on the recommendation or yo
 ![Filter Result](startorial/public/searchResult.png)
 
 ## Sorting 
-![Sorting](startorial/public/sortpage.png)
+![Sorting](startorial/public/sortpagee.png)
