@@ -17,3 +17,6 @@ Step2: you can select the course that you want based on the recommendation or yo
 
 1. Search by the title of the course of your desire in the search bar 
 2. Search by the provider name say, Coursera, udacity, etc. 
+
+## Homepage
+![HomePage](startorial/Public/homepage.png)
