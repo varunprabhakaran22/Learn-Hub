@@ -5,6 +5,14 @@
     margin: 0% 5% 0% 5%;
 }
 
+.sub-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
 @media only screen and (max-width: 768px){
     .cardHolder{
         grid-template-columns: 1fr;

@@ -72,8 +72,10 @@ class Search extends Component{
         return (
             <div>
                 <Input data={ data } setResult={this.setResult} setLoading={this.setLoading} />
-                <Detail total={data.length} found={displayList.length}/>
-                <Sort data ={listItems}  setResult= {this.setResult}/>
+                <div className ="sub-menu">
+                    <Detail total={data.length} found={displayList.length}/>
+                    <Sort data ={listItems}  setResult= {this.setResult}/>
+                </div>
                 {
                     loading ? <Load />
                     :
