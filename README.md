@@ -19,4 +19,4 @@ Step2: you can select the course that you want based on the recommendation or yo
 2. Search by the provider name say, Coursera, udacity, etc. 
 
 ## Homepage
-![HomePage](startorial/Public/homepage.png)
+![HomePage](startorial/public/homepage.png)
