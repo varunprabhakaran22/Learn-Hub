@@ -22,14 +22,12 @@ Step2: you can select the course that you want based on the recommendation or yo
 Clone the project using Git Bash / Command prompt:
 git clone https://github.com/varunprabhakaran22/ByjusCourse/
 
-### Navigate inside the directory by:
+### Navigate inside the directory
 cd startorial
 ## Install all required packages:
 npm install
 ## Run dev server:
 npm start
-
-### Open your browser at http://localhost:3000/
 
 ## Screen Shots
 ## Homepage
