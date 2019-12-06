@@ -18,6 +18,19 @@ Step2: you can select the course that you want based on the recommendation or yo
 1. Search by the title of the course of your desire in the search bar 
 2. Search by the provider name say, Coursera, udacity, etc. 
 
+## To run this project locally
+Clone the project using Git Bash / Command prompt:
+git clone https://github.com/varunprabhakaran22/ByjusCourse/
+
+### Navigate inside the directory by:
+cd startorial
+## Install all required packages:
+npm install
+## Run dev server:
+npm start
+
+### Open your browser at http://localhost:3000/
+
 ## Screen Shots
 ## Homepage
 ![HomePage](startorial/public/homepage.png)
