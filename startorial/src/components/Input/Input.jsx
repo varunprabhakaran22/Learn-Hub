@@ -1,6 +1,5 @@
 //Importing the required packages for this component
 import React,{ useState } from 'react'
-import axios from 'axios'
 import './Input.css'
 
 const Input = (props) => {
