@@ -21,7 +21,7 @@ const Sorting = ( props )=>{
     return(
         <div> Sort
             <button className="button" onClick={sortAsc}> <i className="fa fa-sort-asc" ></i></button>   
-            {/* <button className="button" onClick={sortDesc}> <i className="fa fa-sort-desc" > </i></button> */}
+            <button className="button" onClick={sortDesc}> <i className="fa fa-sort-desc" > </i></button>
         </div>
     )
 }
